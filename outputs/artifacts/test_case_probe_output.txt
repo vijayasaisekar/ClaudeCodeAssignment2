@@ -1,0 +1,10 @@
+﻿TC-001 right 49.72 33.82
+TC-002 81
+TC-003 dict_keys(['days_since_last_txn', 'trailing_90d_spend']) {'days_since_last_txn_mwu_p': 3.708466049972069e-74}
+TC-004 raised ValueError region: needs at least two levels to test against churn
+TC-005 profile raised ValueError profile_distribution: no non-null values to profile
+TC-005 zero-activity raised ValueError count_zero_activity_customers: customers frame is empty
+TC-006 1 10.0
+TC-007 1231 994 237.0 102 11967.95
+TC-008 increasing 2024-02-01 2026-07-01 41.0 0.998
+TC-009 chi-square test of independence 6.374 0.0948

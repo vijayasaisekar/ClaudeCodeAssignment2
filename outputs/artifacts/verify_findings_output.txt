@@ -1,0 +1,2 @@
+﻿checked 81 stated claims in EDA_FINDINGS.md, MODEL_RECOMMENDATION.md, DATA_ISSUES.md
+PASS: every stated claim reproduces from the raw data

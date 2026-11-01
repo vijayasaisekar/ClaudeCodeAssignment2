@@ -1,0 +1,100 @@
+{
+  "schema": {
+    "customers": {
+      "columns": [
+        "customer_id",
+        "signup_date",
+        "acquisition_channel",
+        "region",
+        "churned"
+      ],
+      "dtypes": {
+        "customer_id": "int64",
+        "signup_date": "datetime64[us]",
+        "acquisition_channel": "str",
+        "region": "str",
+        "churned": "int64"
+      },
+      "n_rows": 1500
+    },
+    "transactions": {
+      "columns": [
+        "customer_id",
+        "txn_timestamp",
+        "category",
+        "channel",
+        "amount",
+        "is_returned"
+      ],
+      "dtypes": {
+        "customer_id": "int64",
+        "txn_timestamp": "datetime64[ns]",
+        "category": "str",
+        "channel": "str",
+        "amount": "float64",
+        "is_returned": "int64"
+      },
+      "n_rows": 11742
+    },
+    "monthly_agg": {
+      "columns": [
+        "customer_id",
+        "txn_month",
+        "txn_count",
+        "total_amount",
+        "return_count"
+      ],
+      "dtypes": {
+        "customer_id": "int64",
+        "txn_month": "datetime64[us]",
+        "txn_count": "int64",
+        "total_amount": "float64",
+        "return_count": "int64"
+      },
+      "n_rows": 8086
+    }
+  },
+  "missingness": {
+    "customers": {
+      "customer_id": 0,
+      "signup_date": 0,
+      "acquisition_channel": 0,
+      "region": 0,
+      "churned": 0
+    },
+    "transactions": {
+      "customer_id": 0,
+      "txn_timestamp": 0,
+      "category": 0,
+      "channel": 0,
+      "amount": 0,
+      "is_returned": 0
+    },
+    "monthly_agg": {
+      "customer_id": 0,
+      "txn_month": 0,
+      "txn_count": 0,
+      "total_amount": 0,
+      "return_count": 0
+    }
+  },
+  "zero_activity_customers": 81,
+  "amount_distribution": {
+    "n": 11742,
+    "mean": 49.72022909214784,
+    "median": 33.82,
+    "skew": 6.106617586266545,
+    "skew_direction": "right",
+    "min": 3.0,
+    "max": 1684.21
+  },
+  "amount_outliers": {
+    "rule": "iqr x1.5",
+    "bound_low": -46.181250000000006,
+    "bound_high": 125.92875000000001,
+    "n_outliers": 783
+  },
+  "churn_rate": 0.13466666666666666,
+  "churned_count": 202,
+  "n_customers": 1500
+}

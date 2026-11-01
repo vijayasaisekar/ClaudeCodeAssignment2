@@ -1,0 +1,2 @@
+﻿checked 81 stated claims in EDA_FINDINGS.md, MODEL_RECOMMENDATION.md, DATA_ISSUES.md
+FAIL EDA_FINDINGS.md churn_rate: stated 0.1400, recomputed 0.13466666666666666

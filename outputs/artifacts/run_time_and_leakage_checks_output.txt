@@ -1,0 +1,7 @@
+﻿monthly txn_count trend: increasing, slope 41.0 rows/month, Spearman rho 0.998 over 30 months (2024-02-01 to 2026-07-01)
+multi-source months with any disagreement: 1
+  2026-07: row-level 1231 txns vs extract 994.0 (diff 237.0); customer-months db-only 102, amount diff 11967.95
+leakage-flagged drivers: ['days_since_last_txn', 'trailing_90d_spend']
+not flagged: ['acquisition_channel', 'region', 'tenure_days', 'pre_window_txn_count', 'pre_window_spend'] unclassified: []
+post-as-of check: rows at/after 2026-08-01 present in the frame used for computation: 0 passed = True
+trailing-window diagnostics: churned customers' min days-since-last-txn = 91; max trailing-90d spend among churned = 0.00
