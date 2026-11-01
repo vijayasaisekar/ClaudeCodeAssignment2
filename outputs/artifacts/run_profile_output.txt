@@ -1,0 +1,7 @@
+﻿customers: 1500 rows, churned 202, churn rate 0.1347
+zero-activity customers (no rows in transactions.db): 81
+missingness (customers): {'customer_id': 0, 'signup_date': 0, 'acquisition_channel': 0, 'region': 0, 'churned': 0}
+missingness (transactions): {'customer_id': 0, 'txn_timestamp': 0, 'category': 0, 'channel': 0, 'amount': 0, 'is_returned': 0}
+missingness (monthly_agg): {'customer_id': 0, 'txn_month': 0, 'txn_count': 0, 'total_amount': 0, 'return_count': 0}
+amount: mean 49.72, median 33.82, skew 6.11 (right), min 3.00, max 1684.21
+amount outliers (iqr x1.5): 783 rows outside [-46.18, 125.93]

@@ -1,0 +1,613 @@
+{
+  "trend_summary": {
+    "column": "txn_count",
+    "n_months": 30,
+    "first_month": "2024-02-01",
+    "last_month": "2026-07-01",
+    "slope_per_month": 41.02335928809789,
+    "spearman_rho": 0.9977753058954394,
+    "spearman_p": 1.7572117832206175e-34,
+    "direction": "increasing"
+  },
+  "trend_monthly": [
+    {
+      "month": "2024-02",
+      "txn_count": 1,
+      "total_amount": 25.03,
+      "n_customers": 1
+    },
+    {
+      "month": "2024-03",
+      "txn_count": 3,
+      "total_amount": 78.11,
+      "n_customers": 3
+    },
+    {
+      "month": "2024-04",
+      "txn_count": 5,
+      "total_amount": 239.77,
+      "n_customers": 5
+    },
+    {
+      "month": "2024-05",
+      "txn_count": 17,
+      "total_amount": 576.3100000000001,
+      "n_customers": 13
+    },
+    {
+      "month": "2024-06",
+      "txn_count": 19,
+      "total_amount": 772.03,
+      "n_customers": 16
+    },
+    {
+      "month": "2024-07",
+      "txn_count": 31,
+      "total_amount": 1510.7,
+      "n_customers": 24
+    },
+    {
+      "month": "2024-08",
+      "txn_count": 42,
+      "total_amount": 2128.91,
+      "n_customers": 33
+    },
+    {
+      "month": "2024-09",
+      "txn_count": 69,
+      "total_amount": 3858.0699999999997,
+      "n_customers": 53
+    },
+    {
+      "month": "2024-10",
+      "txn_count": 85,
+      "total_amount": 4105.74,
+      "n_customers": 58
+    },
+    {
+      "month": "2024-11",
+      "txn_count": 84,
+      "total_amount": 4106.8,
+      "n_customers": 68
+    },
+    {
+      "month": "2024-12",
+      "txn_count": 124,
+      "total_amount": 5844.06,
+      "n_customers": 89
+    },
+    {
+      "month": "2025-01",
+      "txn_count": 151,
+      "total_amount": 6752.24,
+      "n_customers": 111
+    },
+    {
+      "month": "2025-02",
+      "txn_count": 182,
+      "total_amount": 9266.78,
+      "n_customers": 128
+    },
+    {
+      "month": "2025-03",
+      "txn_count": 234,
+      "total_amount": 11576.51,
+      "n_customers": 151
+    },
+    {
+      "month": "2025-04",
+      "txn_count": 242,
+      "total_amount": 12056.95,
+      "n_customers": 179
+    },
+    {
+      "month": "2025-05",
+      "txn_count": 308,
+      "total_amount": 14102.05,
+      "n_customers": 232
+    },
+    {
+      "month": "2025-06",
+      "txn_count": 326,
+      "total_amount": 17978.85,
+      "n_customers": 252
+    },
+    {
+      "month": "2025-07",
+      "txn_count": 367,
+      "total_amount": 19357.72,
+      "n_customers": 269
+    },
+    {
+      "month": "2025-08",
+      "txn_count": 458,
+      "total_amount": 23394.9,
+      "n_customers": 328
+    },
+    {
+      "month": "2025-09",
+      "txn_count": 487,
+      "total_amount": 23634.96,
+      "n_customers": 336
+    },
+    {
+      "month": "2025-10",
+      "txn_count": 569,
+      "total_amount": 26535.920000000002,
+      "n_customers": 401
+    },
+    {
+      "month": "2025-11",
+      "txn_count": 560,
+      "total_amount": 30883.01,
+      "n_customers": 418
+    },
+    {
+      "month": "2025-12",
+      "txn_count": 683,
+      "total_amount": 33475.04,
+      "n_customers": 459
+    },
+    {
+      "month": "2026-01",
+      "txn_count": 724,
+      "total_amount": 34380.14,
+      "n_customers": 522
+    },
+    {
+      "month": "2026-02",
+      "txn_count": 681,
+      "total_amount": 32833.81,
+      "n_customers": 481
+    },
+    {
+      "month": "2026-03",
+      "txn_count": 869,
+      "total_amount": 42458.53,
+      "n_customers": 602
+    },
+    {
+      "month": "2026-04",
+      "txn_count": 948,
+      "total_amount": 45847.86,
+      "n_customers": 668
+    },
+    {
+      "month": "2026-05",
+      "txn_count": 1104,
+      "total_amount": 56544.03,
+      "n_customers": 736
+    },
+    {
+      "month": "2026-06",
+      "txn_count": 1138,
+      "total_amount": 57405.48,
+      "n_customers": 765
+    },
+    {
+      "month": "2026-07",
+      "txn_count": 1231,
+      "total_amount": 62084.62,
+      "n_customers": 787
+    }
+  ],
+  "multi_source_comparison": [
+    {
+      "month": "2024-02",
+      "db_txn_count": 1,
+      "pq_txn_count": 1.0,
+      "db_total_amount": 25.03,
+      "pq_total_amount": 25.03,
+      "customer_months_db_only": 0,
+      "customer_months_pq_only": 0,
+      "customer_months_txn_count_mismatch": 0,
+      "customer_months_total_amount_mismatch": 0,
+      "txn_count_diff": 0.0,
+      "total_amount_diff": 0.0
+    },
+    {
+      "month": "2024-03",
+      "db_txn_count": 3,
+      "pq_txn_count": 3.0,
+      "db_total_amount": 78.11,
+      "pq_total_amount": 78.11,
+      "customer_months_db_only": 0,
+      "customer_months_pq_only": 0,
+      "customer_months_txn_count_mismatch": 0,
+      "customer_months_total_amount_mismatch": 0,
+      "txn_count_diff": 0.0,
+      "total_amount_diff": 0.0
+    },
+    {
+      "month": "2024-04",
+      "db_txn_count": 5,
+      "pq_txn_count": 5.0,
+      "db_total_amount": 239.77,
+      "pq_total_amount": 239.77,
+      "customer_months_db_only": 0,
+      "customer_months_pq_only": 0,
+      "customer_months_txn_count_mismatch": 0,
+      "customer_months_total_amount_mismatch": 0,
+      "txn_count_diff": 0.0,
+      "total_amount_diff": 0.0
+    },
+    {
+      "month": "2024-05",
+      "db_txn_count": 17,
+      "pq_txn_count": 17.0,
+      "db_total_amount": 576.3100000000001,
+      "pq_total_amount": 576.3100000000001,
+      "customer_months_db_only": 0,
+      "customer_months_pq_only": 0,
+      "customer_months_txn_count_mismatch": 0,
+      "customer_months_total_amount_mismatch": 0,
+      "txn_count_diff": 0.0,
+      "total_amount_diff": 0.0
+    },
+    {
+      "month": "2024-06",
+      "db_txn_count": 19,
+      "pq_txn_count": 19.0,
+      "db_total_amount": 772.03,
+      "pq_total_amount": 772.03,
+      "customer_months_db_only": 0,
+      "customer_months_pq_only": 0,
+      "customer_months_txn_count_mismatch": 0,
+      "customer_months_total_amount_mismatch": 0,
+      "txn_count_diff": 0.0,
+      "total_amount_diff": 0.0
+    },
+    {
+      "month": "2024-07",
+      "db_txn_count": 31,
+      "pq_txn_count": 31.0,
+      "db_total_amount": 1510.7,
+      "pq_total_amount": 1510.7,
+      "customer_months_db_only": 0,
+      "customer_months_pq_only": 0,
+      "customer_months_txn_count_mismatch": 0,
+      "customer_months_total_amount_mismatch": 0,
+      "txn_count_diff": 0.0,
+      "total_amount_diff": 0.0
+    },
+    {
+      "month": "2024-08",
+      "db_txn_count": 42,
+      "pq_txn_count": 42.0,
+      "db_total_amount": 2128.91,
+      "pq_total_amount": 2128.91,
+      "customer_months_db_only": 0,
+      "customer_months_pq_only": 0,
+      "customer_months_txn_count_mismatch": 0,
+      "customer_months_total_amount_mismatch": 0,
+      "txn_count_diff": 0.0,
+      "total_amount_diff": 0.0
+    },
+    {
+      "month": "2024-09",
+      "db_txn_count": 69,
+      "pq_txn_count": 69.0,
+      "db_total_amount": 3858.0699999999997,
+      "pq_total_amount": 3858.0699999999997,
+      "customer_months_db_only": 0,
+      "customer_months_pq_only": 0,
+      "customer_months_txn_count_mismatch": 0,
+      "customer_months_total_amount_mismatch": 0,
+      "txn_count_diff": 0.0,
+      "total_amount_diff": 0.0
+    },
+    {
+      "month": "2024-10",
+      "db_txn_count": 85,
+      "pq_txn_count": 85.0,
+      "db_total_amount": 4105.74,
+      "pq_total_amount": 4105.74,
+      "customer_months_db_only": 0,
+      "customer_months_pq_only": 0,
+      "customer_months_txn_count_mismatch": 0,
+      "customer_months_total_amount_mismatch": 0,
+      "txn_count_diff": 0.0,
+      "total_amount_diff": 0.0
+    },
+    {
+      "month": "2024-11",
+      "db_txn_count": 84,
+      "pq_txn_count": 84.0,
+      "db_total_amount": 4106.8,
+      "pq_total_amount": 4106.8,
+      "customer_months_db_only": 0,
+      "customer_months_pq_only": 0,
+      "customer_months_txn_count_mismatch": 0,
+      "customer_months_total_amount_mismatch": 0,
+      "txn_count_diff": 0.0,
+      "total_amount_diff": 0.0
+    },
+    {
+      "month": "2024-12",
+      "db_txn_count": 124,
+      "pq_txn_count": 124.0,
+      "db_total_amount": 5844.06,
+      "pq_total_amount": 5844.06,
+      "customer_months_db_only": 0,
+      "customer_months_pq_only": 0,
+      "customer_months_txn_count_mismatch": 0,
+      "customer_months_total_amount_mismatch": 0,
+      "txn_count_diff": 0.0,
+      "total_amount_diff": 0.0
+    },
+    {
+      "month": "2025-01",
+      "db_txn_count": 151,
+      "pq_txn_count": 151.0,
+      "db_total_amount": 6752.24,
+      "pq_total_amount": 6752.24,
+      "customer_months_db_only": 0,
+      "customer_months_pq_only": 0,
+      "customer_months_txn_count_mismatch": 0,
+      "customer_months_total_amount_mismatch": 0,
+      "txn_count_diff": 0.0,
+      "total_amount_diff": 0.0
+    },
+    {
+      "month": "2025-02",
+      "db_txn_count": 182,
+      "pq_txn_count": 182.0,
+      "db_total_amount": 9266.78,
+      "pq_total_amount": 9266.78,
+      "customer_months_db_only": 0,
+      "customer_months_pq_only": 0,
+      "customer_months_txn_count_mismatch": 0,
+      "customer_months_total_amount_mismatch": 0,
+      "txn_count_diff": 0.0,
+      "total_amount_diff": 0.0
+    },
+    {
+      "month": "2025-03",
+      "db_txn_count": 234,
+      "pq_txn_count": 234.0,
+      "db_total_amount": 11576.51,
+      "pq_total_amount": 11576.51,
+      "customer_months_db_only": 0,
+      "customer_months_pq_only": 0,
+      "customer_months_txn_count_mismatch": 0,
+      "customer_months_total_amount_mismatch": 0,
+      "txn_count_diff": 0.0,
+      "total_amount_diff": 0.0
+    },
+    {
+      "month": "2025-04",
+      "db_txn_count": 242,
+      "pq_txn_count": 242.0,
+      "db_total_amount": 12056.95,
+      "pq_total_amount": 12056.95,
+      "customer_months_db_only": 0,
+      "customer_months_pq_only": 0,
+      "customer_months_txn_count_mismatch": 0,
+      "customer_months_total_amount_mismatch": 0,
+      "txn_count_diff": 0.0,
+      "total_amount_diff": 0.0
+    },
+    {
+      "month": "2025-05",
+      "db_txn_count": 308,
+      "pq_txn_count": 308.0,
+      "db_total_amount": 14102.05,
+      "pq_total_amount": 14102.05,
+      "customer_months_db_only": 0,
+      "customer_months_pq_only": 0,
+      "customer_months_txn_count_mismatch": 0,
+      "customer_months_total_amount_mismatch": 0,
+      "txn_count_diff": 0.0,
+      "total_amount_diff": 0.0
+    },
+    {
+      "month": "2025-06",
+      "db_txn_count": 326,
+      "pq_txn_count": 326.0,
+      "db_total_amount": 17978.85,
+      "pq_total_amount": 17978.85,
+      "customer_months_db_only": 0,
+      "customer_months_pq_only": 0,
+      "customer_months_txn_count_mismatch": 0,
+      "customer_months_total_amount_mismatch": 0,
+      "txn_count_diff": 0.0,
+      "total_amount_diff": 0.0
+    },
+    {
+      "month": "2025-07",
+      "db_txn_count": 367,
+      "pq_txn_count": 367.0,
+      "db_total_amount": 19357.72,
+      "pq_total_amount": 19357.72,
+      "customer_months_db_only": 0,
+      "customer_months_pq_only": 0,
+      "customer_months_txn_count_mismatch": 0,
+      "customer_months_total_amount_mismatch": 0,
+      "txn_count_diff": 0.0,
+      "total_amount_diff": 0.0
+    },
+    {
+      "month": "2025-08",
+      "db_txn_count": 458,
+      "pq_txn_count": 458.0,
+      "db_total_amount": 23394.9,
+      "pq_total_amount": 23394.9,
+      "customer_months_db_only": 0,
+      "customer_months_pq_only": 0,
+      "customer_months_txn_count_mismatch": 0,
+      "customer_months_total_amount_mismatch": 0,
+      "txn_count_diff": 0.0,
+      "total_amount_diff": 0.0
+    },
+    {
+      "month": "2025-09",
+      "db_txn_count": 487,
+      "pq_txn_count": 487.0,
+      "db_total_amount": 23634.96,
+      "pq_total_amount": 23634.96,
+      "customer_months_db_only": 0,
+      "customer_months_pq_only": 0,
+      "customer_months_txn_count_mismatch": 0,
+      "customer_months_total_amount_mismatch": 0,
+      "txn_count_diff": 0.0,
+      "total_amount_diff": 0.0
+    },
+    {
+      "month": "2025-10",
+      "db_txn_count": 569,
+      "pq_txn_count": 569.0,
+      "db_total_amount": 26535.920000000002,
+      "pq_total_amount": 26535.920000000002,
+      "customer_months_db_only": 0,
+      "customer_months_pq_only": 0,
+      "customer_months_txn_count_mismatch": 0,
+      "customer_months_total_amount_mismatch": 0,
+      "txn_count_diff": 0.0,
+      "total_amount_diff": 0.0
+    },
+    {
+      "month": "2025-11",
+      "db_txn_count": 560,
+      "pq_txn_count": 560.0,
+      "db_total_amount": 30883.01,
+      "pq_total_amount": 30883.01,
+      "customer_months_db_only": 0,
+      "customer_months_pq_only": 0,
+      "customer_months_txn_count_mismatch": 0,
+      "customer_months_total_amount_mismatch": 0,
+      "txn_count_diff": 0.0,
+      "total_amount_diff": 0.0
+    },
+    {
+      "month": "2025-12",
+      "db_txn_count": 683,
+      "pq_txn_count": 683.0,
+      "db_total_amount": 33475.04,
+      "pq_total_amount": 33475.04,
+      "customer_months_db_only": 0,
+      "customer_months_pq_only": 0,
+      "customer_months_txn_count_mismatch": 0,
+      "customer_months_total_amount_mismatch": 0,
+      "txn_count_diff": 0.0,
+      "total_amount_diff": 0.0
+    },
+    {
+      "month": "2026-01",
+      "db_txn_count": 724,
+      "pq_txn_count": 724.0,
+      "db_total_amount": 34380.14,
+      "pq_total_amount": 34380.14,
+      "customer_months_db_only": 0,
+      "customer_months_pq_only": 0,
+      "customer_months_txn_count_mismatch": 0,
+      "customer_months_total_amount_mismatch": 0,
+      "txn_count_diff": 0.0,
+      "total_amount_diff": 0.0
+    },
+    {
+      "month": "2026-02",
+      "db_txn_count": 681,
+      "pq_txn_count": 681.0,
+      "db_total_amount": 32833.81,
+      "pq_total_amount": 32833.81,
+      "customer_months_db_only": 0,
+      "customer_months_pq_only": 0,
+      "customer_months_txn_count_mismatch": 0,
+      "customer_months_total_amount_mismatch": 0,
+      "txn_count_diff": 0.0,
+      "total_amount_diff": 0.0
+    },
+    {
+      "month": "2026-03",
+      "db_txn_count": 869,
+      "pq_txn_count": 869.0,
+      "db_total_amount": 42458.53,
+      "pq_total_amount": 42458.53,
+      "customer_months_db_only": 0,
+      "customer_months_pq_only": 0,
+      "customer_months_txn_count_mismatch": 0,
+      "customer_months_total_amount_mismatch": 0,
+      "txn_count_diff": 0.0,
+      "total_amount_diff": 0.0
+    },
+    {
+      "month": "2026-04",
+      "db_txn_count": 948,
+      "pq_txn_count": 948.0,
+      "db_total_amount": 45847.86,
+      "pq_total_amount": 45847.86,
+      "customer_months_db_only": 0,
+      "customer_months_pq_only": 0,
+      "customer_months_txn_count_mismatch": 0,
+      "customer_months_total_amount_mismatch": 0,
+      "txn_count_diff": 0.0,
+      "total_amount_diff": 0.0
+    },
+    {
+      "month": "2026-05",
+      "db_txn_count": 1104,
+      "pq_txn_count": 1104.0,
+      "db_total_amount": 56544.03,
+      "pq_total_amount": 56544.03,
+      "customer_months_db_only": 0,
+      "customer_months_pq_only": 0,
+      "customer_months_txn_count_mismatch": 0,
+      "customer_months_total_amount_mismatch": 0,
+      "txn_count_diff": 0.0,
+      "total_amount_diff": 0.0
+    },
+    {
+      "month": "2026-06",
+      "db_txn_count": 1138,
+      "pq_txn_count": 1138.0,
+      "db_total_amount": 57405.48,
+      "pq_total_amount": 57405.48,
+      "customer_months_db_only": 0,
+      "customer_months_pq_only": 0,
+      "customer_months_txn_count_mismatch": 0,
+      "customer_months_total_amount_mismatch": 0,
+      "txn_count_diff": 0.0,
+      "total_amount_diff": 0.0
+    },
+    {
+      "month": "2026-07",
+      "db_txn_count": 1231,
+      "pq_txn_count": 994.0,
+      "db_total_amount": 62084.62,
+      "pq_total_amount": 50116.67,
+      "customer_months_db_only": 102,
+      "customer_months_pq_only": 0,
+      "customer_months_txn_count_mismatch": 110,
+      "customer_months_total_amount_mismatch": 110,
+      "txn_count_diff": 237.0,
+      "total_amount_diff": 11967.95
+    }
+  ],
+  "leakage_flags": {
+    "flagged": {
+      "days_since_last_txn": "computed over all history before as-of, which overlaps the label's own trailing 90-day window; circular with the label",
+      "trailing_90d_spend": "computed over the last 90 days before as-of, which overlaps the label's own trailing 90-day window; circular with the label"
+    },
+    "not_flagged": [
+      "acquisition_channel",
+      "region",
+      "tenure_days",
+      "pre_window_txn_count",
+      "pre_window_spend"
+    ],
+    "unclassified": []
+  },
+  "post_as_of_check": {
+    "passed": true,
+    "n_post_as_of_rows_in_source": 0,
+    "note": "rows at/after 2026-08-01 present in the frame used for computation: 0"
+  },
+  "trailing_window_diagnostics": {
+    "days_since_last_txn_min_churned": 91.0,
+    "days_since_last_txn_max_not_churned": 90.0,
+    "days_since_last_txn_mwu_p": 3.708466049972069e-74,
+    "days_since_last_txn_n_nonnull": 1419,
+    "trailing_90d_spend_max_churned": 0.0,
+    "trailing_90d_spend_min_not_churned": 0.0
+  }
+}

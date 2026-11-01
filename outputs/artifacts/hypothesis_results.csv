@@ -1,0 +1,5 @@
+driver,test,statistic,p_value,effect_size_or_magnitude,effect_metric,higher_group,highest_churn_group,highest_churn_rate,lowest_churn_rate,n,skew
+acquisition_channel,chi-square test of independence,6.374254055539934,0.09475573409892891,0.06747620774095084,Cramer's V,,social,0.12903225806451613,0.0794044665012407,1400,
+region,chi-square test of independence,6.585611648048069,0.08634665339987156,0.0685857734521842,Cramer's V,,east,0.14722222222222223,0.096045197740113,1400,
+pre_window_txn_count,Mann-Whitney U (two-sided),85979.0,0.026266753075694114,-0.10891048063220621,rank-biserial r (positive = churned tends higher),not_churned,,,,1400,0.792121872992723
+pre_window_spend,Mann-Whitney U (two-sided),85665.0,0.022310569425543252,-0.11216478818499809,rank-biserial r (positive = churned tends higher),not_churned,,,,1400,1.254103026534986

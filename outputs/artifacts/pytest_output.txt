@@ -1,0 +1,35 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.14.3, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\vijayasai.sekar\Desktop\LandsEnd\ClaudeCodeAssignment2\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\vijayasai.sekar\Desktop\LandsEnd\ClaudeCodeAssignment2
+configfile: pytest.ini
+testpaths: tests
+plugins: anyio-4.15.1, platformdirs-4.14.2
+collecting ... collected 24 items
+
+tests/test_findings_reproduce.py::test_churn_rate_claim_reproduces PASSED [  4%]
+tests/test_findings_reproduce.py::test_zero_activity_count_claim_reproduces PASSED [  8%]
+tests/test_findings_reproduce.py::test_each_hypothesis_result_reproduces PASSED [ 12%]
+tests/test_findings_reproduce.py::test_multi_source_gap_claim_reproduces PASSED [ 16%]
+tests/test_findings_reproduce.py::test_all_stated_findings_reproduce_across_documents PASSED [ 20%]
+tests/test_findings_reproduce.py::test_mutated_number_is_caught PASSED   [ 25%]
+tests/test_hypotheses.py::test_hypothesis_detects_engineered_difference PASSED [ 29%]
+tests/test_hypotheses.py::test_hypothesis_reports_null_result_honestly PASSED [ 33%]
+tests/test_hypotheses.py::test_hypothesis_uses_test_matching_variable_shape PASSED [ 37%]
+tests/test_hypotheses.py::test_hypothesis_rejects_constant_driver_explicitly PASSED [ 41%]
+tests/test_load.py::test_load_customers_schema_and_row_count PASSED      [ 45%]
+tests/test_load.py::test_load_transactions_schema_and_row_count PASSED   [ 50%]
+tests/test_load.py::test_load_monthly_agg_schema_and_row_count PASSED    [ 54%]
+tests/test_profile.py::test_profile_schema_reports_expected_columns_and_dtypes PASSED [ 58%]
+tests/test_profile.py::test_profile_missingness_does_not_conflate_zero_activity_with_missing PASSED [ 62%]
+tests/test_profile.py::test_profile_distribution_detects_right_skew PASSED [ 66%]
+tests/test_profile.py::test_count_outliers_flags_known_outlier PASSED    [ 70%]
+tests/test_profile.py::test_profile_rejects_empty_input_explicitly PASSED [ 75%]
+tests/test_time_and_leakage_checks.py::test_monthly_volume_trend_detects_growth PASSED [ 79%]
+tests/test_time_and_leakage_checks.py::test_compare_row_level_vs_monthly_agg_detects_known_mismatch PASSED [ 83%]
+tests/test_time_and_leakage_checks.py::test_compare_row_level_vs_monthly_agg_confirms_agreement_when_consistent PASSED [ 87%]
+tests/test_time_and_leakage_checks.py::test_flag_label_circular_drivers_flags_trailing_window_features PASSED [ 91%]
+tests/test_time_and_leakage_checks.py::test_flag_label_circular_drivers_does_not_flag_legitimate_driver PASSED [ 95%]
+tests/test_time_and_leakage_checks.py::test_post_as_of_check_flags_rows_after_cutoff PASSED [100%]
+
+============================= 24 passed in 9.79s ==============================
